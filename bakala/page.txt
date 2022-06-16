@@ -1,0 +1,35 @@
+1) Data
+2) Actions
+3) Components + Presentation
+
+
+Components:
+- list of products, price, name, image, description
+    * bootstrap cards
+- title + total number of products
+    * H1, H2... css
+- search field
+    * bootstrap form field
+- sort list A-Z, Z-A
+    * bootstrap form field
+- type of layout: flex | frid (todo:check which one to use)
+    * 
+- button "Filter"
+    * bootstrap button
+
+Actions:
+- user is sorting
+    * JS eventListener
+- user is filtering
+    * JS eventListener
+- on screen load display number of products in store
+
+
+Presentation - Constant:
+- layout
+- title
+- Filter bar (serach, sort, button)
+- size
+
+Data - Changing for every store:
+- products
