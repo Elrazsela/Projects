@@ -1,0 +1,20 @@
+[
+    {
+    "email": "somemail@gmai.com",
+    "userName": "UserName1",
+    "lastName": "Sela",
+    "firstName": "Elraz"
+},
+{
+    "email": "anotheremail@gmail.com",
+    "userName": "anotherUser",
+    "lastName": "Israeli",
+    "firstName": "Israel"
+},
+{
+    "email": "notanemail@gmail.com",
+    "userName": "notauser",
+    "lastName": "Cohen",
+    "firstName": "Avi"
+}
+]
