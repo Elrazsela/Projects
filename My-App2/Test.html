@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JS</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <ul id="users-list"></ul>
+    <script>
+        const users = [{
+                name: 'avi',
+                city: 'Tel Aviv'
+            },
+            {
+                name: 'moshe',
+                city: 'Bat Yam'
+            }
+        ];
+
+        for (let user of users) {
+            console.log(user.name, user.city);
+            document.getElementById('users-list').innerHTML += `<li>
+            ${user.name}  ${user.city} </li>`
+        }
+    </script>
+</body>
+
+</html>

@@ -57,9 +57,4 @@ json.forEach(item => {
 });
 document.getElementById('ulId').innerHTML = html;
 };
-getUl();
-
-
-});
-
-
+getUl();})
