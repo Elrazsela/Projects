@@ -1,0 +1,18 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+}
+body{
+    height: 100vh;
+}
