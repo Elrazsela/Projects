@@ -6,11 +6,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <style>
+        .table {
+            width: 250px;
+            border: 1px solid #000;
+        }
+
+        .btn {
+            box-shadow: 3px 3px 3px;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Blog</h1>
 
+    <div class="table">
+        <h2>Get All Posts</h2>
+        <table class="table" border="1">
+            <tr class="table">
+                <td>ID</td>
+                <td>Post</td>
+                <td>Title</td>
+                <td>User Id</td>
+            </tr>
+        </table>
+        <input type="button" id="getAllPostsBtn" class="btn" value="Get All Posts">
+    </div>
+
+    <div class="table">
+        <h2>Get Post By ID</h2>
+        <table class="table" border="1">
+            <label> Post Id</label><input type="text" id="get-post-by-id">
+            <tr class="table">
+                <td>ID</td>
+                <td>Post</td>
+                <td>Title</td>
+                <td>User Id</td>
+            </tr>
+        </table>
+        <input type="button" id="getPostByIdBtn" class="btn" value="Get Post">
+    </div>
+
+
+    <div class="table">
+        <h2>Add New Post</h2>
+        <table class="table" border="1">
+            <label for="">Post Title</label> <input type="text" id="add-post-title">
+            <label for="">Post Body</label> <textarea name="" id="add-post-article" cols="30" rows="10"></textarea>
+            <tr class="table">
+                <td>ID</td>
+                <td>Post</td>
+                <td>Title</td>
+                <td>User Id</td>
+            </tr>
+        </table>
+        <input type="button" id="addNewPostBtn" class="btn" value="Add Post">
+    </div>
+
+
+    <div class="table">
+        <h2>Change Post Details</h2>
+        <table class="table" border="1">
+            Post Id<input type="text" id="change-post-details">
+            <label for="">Title</label> <input type="text" id="change-post-details-text">
+            <tr class="table">
+                <td>ID</td>
+                <td>Post</td>
+                <td>Title</td>
+                <td>User Id</td>
+            </tr>
+        </table>
+        <input type="button" id="changePostDetailsBtn" class="" value="Update Post">
+    </div>
+
+
+    <div class="table">
+        <h2>Delete Post</h2>
+        <table class="table" border="1">
+            <tr class="table">
+                <td>ID</td>
+                <td>Post</td>
+                <td>Title</td>
+                <td>User Id</td>
+            </tr>
+        </table>
+        <input type="button" id="deletePostBtn" class="btn" value="Delete Post">
+        <div id="delete-notification-div"></div>
+    </div>
 
 
     <script src="app.js"></script>
