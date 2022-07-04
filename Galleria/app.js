@@ -1,5 +1,5 @@
 import { pictures } from './data/pictures.js';
-
+console.log(pictures);
 /*
 window.searchProduct = function() {
     const searchField = document.getElementById('search-field');

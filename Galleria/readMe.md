@@ -11,5 +11,5 @@ Add availability function
 * images
 * vat
 * div
-* Error message
+* inStock=false >> Error message ('not available')
 * style

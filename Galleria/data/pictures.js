@@ -10,11 +10,12 @@ function addTax(price) {
 }
 
 class Picture {
-    constructor(picturePrice, pictureName, pictureImage, pictureDescription) {
+    constructor(picturePrice, pictureName, pictureImage, pictureDescription,pictureInStock) {
         this.price = picturePrice;
         this.name = pictureName;
         this.image = pictureImage;
         this.description = pictureDescription;
+        this.inStock = pictureInStock
         this.id = this.generateId();
     }
 
@@ -42,7 +43,9 @@ class Picture {
     getDescription() {
         return this.description;
     }
-
+    getInStock(){
+        return this.inStock;
+    }
     getId() {
         return this.id;
     }
@@ -54,24 +57,28 @@ const pictures = [
         'Beutiful Flower',
         '2015/04/19/08/32/rose-729509_960_720.jpg',
         'Great Picture really!',
+        true,
     ),
     new Picture(
         150,
         'Amazing Flower',
         '2022/06/28/19/39/flower-7290436_960_720.jpg',
-        'Very nice Picture'
+        'Very nice Picture',
+        true,
     ),
     new Picture(
         200,
         'Purple Rose',
         '2013/07/21/13/00/rose-165819_960_720.jpg',
         'Another Great Picture',
+        true,
     ),
     new Picture(
         150,
         'Red Rose',
         '2014/04/10/11/35/red-320891_960_720.jpg',
         'Another Great Picture',
+        false,
     ),
 ];
 
