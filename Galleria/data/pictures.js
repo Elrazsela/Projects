@@ -50,27 +50,27 @@ class Picture {
 
 const pictures = [
     new Picture(
-        15,
-        'Yellow cheese',
-        '2016/03/05/19/24/cheese-1238395_960_720.jpg',
-        'Great Picture really!'
+        100,
+        'Beutiful Flower',
+        '2015/04/19/08/32/rose-729509_960_720.jpg',
+        'Great Picture really!',
     ),
     new Picture(
-        3,
-        'Ice cream',
-        '2017/04/18/15/10/strawberry-ice-cream-2239377_640.jpg',
+        150,
+        'Amazing Flower',
+        '2022/06/28/19/39/flower-7290436_960_720.jpg',
         'Very nice Picture'
     ),
     new Picture(
-        55,
-        'aaa',
-        '2017/04/18/15/10/strawberry-ice-cream-2239377_640.jpg',
+        200,
+        'Purple Rose',
+        '2013/07/21/13/00/rose-165819_960_720.jpg',
         'Another Great Picture',
     ),
     new Picture(
-        55,
-        'aaa',
-        '2017/04/18/15/10/strawberry-ice-cream-2239377_640.jpg',
+        150,
+        'Red Rose',
+        '2014/04/10/11/35/red-320891_960_720.jpg',
         'Another Great Picture',
     ),
 ];

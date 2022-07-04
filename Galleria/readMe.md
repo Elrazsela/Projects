@@ -8,6 +8,8 @@ Art store management system
 * git
 
 Add availability function
-* var
+* images
+* vat
 * div
 * Error message
+* style
