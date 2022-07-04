@@ -1,13 +1,15 @@
 
 function addTax(price) {
     if (!price || price <= 0 || typeof (price) === 'string') {
-        throw Error('Nothing is for free! please supply a price');
+        throw Error('Please supply a price');
     }
 
     const vat = 1.17; // = maam
     const total = (price * vat).toFixed(2);
     return total;
-}
+};
+
+
 
 class Picture {
     constructor(picturePrice, pictureName, pictureImage, pictureDescription,pictureInStock) {
@@ -44,12 +46,15 @@ class Picture {
         return this.description;
     }
     getInStock(){
-        return this.inStock;
+        var inStockMsg = '';
+        if (!this.inStock)
+          inStockMsg = 'Not Avaliable'
+        return inStockMsg
     }
     getId() {
         return this.id;
     }
-}
+   }
 
 const pictures = [
     new Picture(
