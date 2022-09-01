@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <style>
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          transition: 0.3s;
+          width: 15%;
+          display: inline-block;
+          margin: 5px;
+        }
+        
+        .card:hover {
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        
+        .container {
+          padding: 2px 16px;
+        }
+        </style>
+</head>
+<body>
+    
+    <div class="w3-container w3-teal">
+      <h1>Our best celebs</h1>
+    </div>
+    
+    <div  id="container" class="w3-container">
+    </div>
+
+
+    <script src="createOneCeleb.js"></script>
+    <script>  
+       
+        fetch('http://localhost:3000/')
+        .then(x=>x.json())
+        .then(celebs=> {
+                  for(let celeb of celebs )
+                  {
+                      createOneCeleb(celeb);
+                  }
+        } )
+  </script>
+
+</body>
+</html>

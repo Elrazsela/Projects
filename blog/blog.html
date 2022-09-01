@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2022/06/28/19/39/flower-7290436_960_720.jpg"
+        type="image/x-icon">
     <title>Blog</title>
     <style>
         .table {
@@ -36,8 +38,8 @@
 
     <div class="table">
         <h2>Get Post By ID</h2>
-        <table class="table" border="1">
-            <label> Post Id</label><input type="text" id="get-post-by-id">
+        <table id="postByIdTable" class="table" border="1">
+            <label>Post Id</label><input type="text" id="get-post-by-id">
             <tr class="table">
                 <td>ID</td>
                 <td>Post</td>
@@ -51,7 +53,7 @@
 
     <div class="table">
         <h2>Add New Post</h2>
-        <table class="table" border="1">
+        <table class="table" border="1" id="newPostTableId">
             <label for="">Post Title</label> <input type="text" id="add-post-title">
             <label for="">Post Body</label> <textarea name="" id="add-post-article" cols="30" rows="10"></textarea>
             <tr class="table">
@@ -67,7 +69,7 @@
 
     <div class="table">
         <h2>Change Post Details</h2>
-        <table class="table" border="1">
+        <table class="table" border="1" id="changePostDetailsTable">
             Post Id<input type="text" id="change-post-details">
             <label for="">Title</label> <input type="text" id="change-post-details-text">
             <tr class="table">
@@ -83,7 +85,8 @@
 
     <div class="table">
         <h2>Delete Post</h2>
-        <table class="table" border="1">
+        <table class="table" border="1" id="deletePostTable">
+            <label>Post Id</label><input type="text" id="get-post-by-id-delete">
             <tr class="table">
                 <td>ID</td>
                 <td>Post</td>

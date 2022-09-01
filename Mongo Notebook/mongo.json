@@ -1,0 +1,98 @@
+db.customers.insertMany(
+{
+    "firstName":"Elraz"
+},
+{
+    "lastName":"Sela"
+}
+);
+
+db.cities.insertMany([
+    {
+        name: 'Tel Aviv'
+    },
+    {
+        name: 'Haifa'
+    },
+        {
+        name: 'Jerusalem'
+    },
+        {
+        name: 'Haifa'
+    },
+    {
+        name: 'Ashdod'
+    }
+]);
+
+
+db.products.insertMany([
+    {
+        name: 'aaa',
+        description: 'Nice Product 1',
+        price: 15,
+        image:'2015/04/19/08/32/rose-729509_960_720.jpg',
+    },
+    {
+        name: 'bbb',
+        description: 'Nice Product 2',
+        price: 36,
+        image:'2022/06/28/19/39/flower-7290436_960_720.jpg',
+    },
+    {
+        name: 'ccc',
+        description: 'Nice Product 3',
+        price: 70,
+        image:'2013/07/21/13/00/rose-165819_960_720.jpg',
+    },
+    {
+        name: 'ddd',
+        description: 'Nice Product 4',
+        price: 100,
+        image:'2014/04/10/11/35/red-320891_960_720.jpg',
+    },
+]);
+
+
+db.customers.insertMany([
+    {
+        firstName: 'aaa',
+        lastName: 'bbb',
+        email: 'aabb@email.com',
+        phone: '0521111111',
+        city: 'Tel Aviv',
+
+    },
+    {
+        firstName: 'ccc',
+        lastName: 'ddd',
+        email: 'ccdd@email.com',
+        phone: '0522222222',
+        city: 'Haifa',
+
+    },
+    {
+        firstName: 'eee',
+        lastName: 'fff',
+        email: 'eeff@email.com',
+        phone: '0523333333',
+        city: 'Jerusalem',
+
+    },
+    {
+        firstName: 'ggg',
+        lastName: 'hhh',
+        email: 'gghh@email.com',
+        phone: '0524444444',
+        city: 'Tel Aviv',
+
+    },
+    {
+        firstName: 'iii',
+        lastName: 'jjj',
+        email: 'iijj@email.com',
+        phone: '0525555555',
+        city: 'Haifa',
+
+    },
+])

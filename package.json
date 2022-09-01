@@ -1,0 +1,25 @@
+{
+  "name": "bakala-pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elrazsela/Projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elrazsela/Projects/issues"
+  },
+  "homepage": "https://github.com/Elrazsela/Projects#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "bootstrap": "^5.1.3",
+    "react": "^18.2.0",
+    "reactdom": "^2.0.0"
+  }
+}
